@@ -11,11 +11,12 @@ Trikl is the first of its kind platform to solve these issues with a transparent
 - This is a proof-of-concept version for demonstrating the concept with one expert trader and one copy trader (or new user).
 - We've already created the portfolio for an expert that tracks their [Metamask](https://metamask.io/) wallet in real-time.
 - A copy trader can connect their Metamask wallet and subscribe to the expert trader and choose the amount they want to invest.
-- Once subscribed,
-  - copy trader's funds are stored in Trikl's smart contract
-  - Met
--   
-- 
+
+### Example:
+**Trados, a crypto expert** earns high returns on his portfolio and has securely shared his Metamask portfolio with **Trikl**. **Newman, a copy trader** wants to invest **$100** with the Trados.
+
+- copy trader's funds are stored in Trikl's smart contract
+- Metamask portfolio of
 
 ---
 
