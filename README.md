@@ -13,10 +13,22 @@ Trikl is the first of its kind platform to solve these issues with a transparent
 - A copy trader can connect their Metamask wallet and subscribe to the expert trader and choose the amount they want to invest.
 
 ### Example:
-**Trados, a crypto expert** earns high returns on his portfolio and has securely shared his Metamask portfolio with **Trikl**. **Newman, a copy trader** wants to invest **$100** with the Trados.
-
-- copy trader's funds are stored in Trikl's smart contract
-- Metamask portfolio of
+- Crypto Expert
+  - **Trados, a crypto expert** earning high returns, shares his portfolio on Trikl
+  - Current portfolio composition of Trados is as follows:
+| Attempt | #1  | #2  |
+| :---:   | :-: | :-: |
+| Seconds | 301 | 283 |
+  - Trados sets a subscription charge for his portfolio as **$10 per month**
+  - Trikl's cloud functions tracks Trados' Metamask wallet in real-time
+- Copy Trader
+  - **Newman, a copy trader** wants to copy trade Trados' portfolio
+  - So Newman makes a payment of $100 through his Metamask and subscribes to Trados' portfolio
+- Cloning Functions  
+  - Newman's funds are stored in Trikl's smart contract
+  -  
+    
+  - Metamask portfolio of
 
 ---
 
