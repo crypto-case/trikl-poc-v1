@@ -12,7 +12,7 @@ Trikl is the first of its kind platform to solve these issues with a transparent
 - We've already created the portfolio for an expert that tracks their [Metamask](https://metamask.io/) wallet in real-time.
 - A copy trader can connect their Metamask wallet and subscribe to the expert trader and choose the amount they want to invest.
 
-### Example:
+### Detailed Example Showing PoC Functions:
 - Crypto Expert
   - **Trados, a crypto expert** earning high returns, shares his portfolio on Trikl
   - Current portfolio composition of Trados is as follows:
@@ -36,7 +36,7 @@ Trikl is the first of its kind platform to solve these issues with a transparent
     | Bitcoin (BTC)  | 20%  | 20 |
 
   - Then this funds are transferred to smart contract made for Trados on Trikl - let's call it SC~Trados~
-- Cloning Functions
+- Cloning Function
   - Trados buys **MATIC** token and his new portfolio looks as follows:
 
     | Crypto  | Share (%) |
@@ -54,9 +54,14 @@ Trikl is the first of its kind platform to solve these issues with a transparent
     | Bitcoin (BTC)  | 20%  | 20 |
     | Polygon (MATIC)  | 10%  | 10 |
 
-- Cloning Functions
-  - Trados buys **MATIC** token and his new portfolio looks as follows
-
+- Withdraw Function
+  - Newman's funds are stored and copy traded using Trikl's smart contract in such a way that:
+    - Only Newman (depositor) can withdraw the funds
+    - Funds can be withdrawn at any given point in time
+  - After 15 days, Newman's $100 copy trading portfolio has grown to $500
+  - He wants to withdraw a portion of his funds
+  - He clicks the withdraw button on his dashboard and enters 50% to withdraw half of his total fund value (i.e., $250)
+  - The amount is instantly transferred back to Newman's Metamask Wallet
 
 ---
 
