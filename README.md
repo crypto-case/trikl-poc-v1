@@ -12,6 +12,18 @@ Trikl is the first of its kind platform to solve these issues with a transparent
 - We've already created the portfolio for an expert that tracks their [Metamask](https://metamask.io/) wallet in real-time.
 - A copy trader can connect their Metamask wallet and subscribe to the expert trader and choose the amount they want to invest.
 
+---
+
+## Getting Started With The Code
+### Setting Front-end
+- Make sure you've react and node installed on your system.
+- clone this github repository in your local directory using: `git clone https://github.com/crypto-case/trikl-poc-v1.git`
+- Inside the front-end directory, install the required files using `npm install or npm i`
+- To start the application use: `npm run start`
+- Your browser should automatically take you to `http://localhost:3000/` where you can host the website
+
+---
+
 ### Detailed Example Showing PoC Functions:
 - Crypto Expert
   - **Trados, a crypto expert** earning high returns, shares his portfolio on Trikl
@@ -62,7 +74,3 @@ Trikl is the first of its kind platform to solve these issues with a transparent
   - He wants to withdraw a portion of his funds
   - He clicks the withdraw button on his dashboard and enters 50% to withdraw half of his total fund value (i.e., $250)
   - The amount is instantly transferred back to Newman's Metamask Wallet
-
----
-
-## Getting Started With The Code
