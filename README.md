@@ -16,19 +16,47 @@ Trikl is the first of its kind platform to solve these issues with a transparent
 - Crypto Expert
   - **Trados, a crypto expert** earning high returns, shares his portfolio on Trikl
   - Current portfolio composition of Trados is as follows:
-| Attempt | #1  | #2  |
-| :---:   | :-: | :-: |
-| Seconds | 301 | 283 |
+
+    | Crypto  | Share (%) |
+    | ------------- | ------------- |
+    | Ether (ETH)  | 80%  |
+    | Bitcoin (BTC)  | 20%  |
+
   - Trados sets a subscription charge for his portfolio as **$10 per month**
   - Trikl's cloud functions tracks Trados' Metamask wallet in real-time
 - Copy Trader
   - **Newman, a copy trader** wants to copy trade Trados' portfolio
   - So Newman makes a payment of $100 through his Metamask and subscribes to Trados' portfolio
-- Cloning Functions  
-  - Newman's funds are stored in Trikl's smart contract
-  -  
+- Subscription  
+  - Newman's funds are swapped on Uniswap to match Trados' current portfolio
+
+    | Crypto  | Share (%) |  Value Worth (USD) |
+    | ------------- | ------------- | ------------- |
+    | Ether (ETH)  | 80%  | 80 |
+    | Bitcoin (BTC)  | 20%  | 20 |
+
+  - Then this funds are transferred to smart contract made for Trados on Trikl - let's call it SC~Trados~
+- Cloning Functions
+  - Trados buys **MATIC** token and his new portfolio looks as follows:
+
+    | Crypto  | Share (%) |
+    | ------------- | ------------- |
+    | Ether (ETH)  | 70%  |
+    | Bitcoin (BTC)  | 20%  |
+    | Polygon (MATIC)  | 10%  |
     
-  - Metamask portfolio of
+  - In realtime the funds stored in smart contract (currently of Newman) rebalances to match Trados' new portfolio
+  - The new asset composition of SC~Trados~ becomes as follows:
+
+    | Crypto  | Share (%) |  Value Worth (USD) |
+    | ------------- | ------------- | ------------- |
+    | Ether (ETH)  | 70%  | 70 |
+    | Bitcoin (BTC)  | 20%  | 20 |
+    | Polygon (MATIC)  | 10%  | 10 |
+
+- Cloning Functions
+  - Trados buys **MATIC** token and his new portfolio looks as follows
+
 
 ---
 
