@@ -1,0 +1,15 @@
+#earnImage {
+  max-width: 20em;
+  max-height: 16em;
+  width: auto;
+  height: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  #earnImage {
+    max-width: 80em;
+    max-height: 25em;
+    width: auto;
+    height: auto;
+  }
+}

@@ -1,0 +1,20 @@
+#animatedContainer {
+  animation: fader 5s forwards infinite;
+  transform-origin: center;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fader {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
